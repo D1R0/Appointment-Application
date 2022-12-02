@@ -1,0 +1,46 @@
+.days .active {
+  cursor: pointer;
+}
+.days .disable {
+  opacity: 0.7;
+}
+
+.popupLayout {
+  display: none;
+  position: fixed;
+  min-height: 50px;
+  top: 50%;
+  left: 50%;
+  z-index: 11;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  border: 1px solid #cbcbcb;
+  background: #e1e1e1;
+  border-radius: 15px;
+  transform: translate(-50%, -50%);
+}
+.popupLayout .hours {
+  max-height: 35vh;
+  overflow-y: auto;
+}
+.popupLayout .hours .singleHour {
+  cursor: pointer;
+  background: gray;
+  color: white;
+}
+.popupLayout .hours .singleHour:hover {
+  background: white;
+  color: gray;
+}
+.popupLayout .hours .disable {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+.popupLayout .hours .lock {
+  background: brown;
+  cursor: not-allowed;
+}
+
+.ml-auto {
+  margin-left: auto;
+}/*# sourceMappingURL=style.css.map */
